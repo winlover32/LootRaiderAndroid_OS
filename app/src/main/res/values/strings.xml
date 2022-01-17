@@ -1,0 +1,105 @@
+<resources>
+
+    <!-- Application level strings -->
+    <string name="app_name">Loot Raider</string>
+    <string name="title_activity_game_screen">GameScreenActivity</string>
+    <string name="data_parsing_error_title">Error Reading Game Data</string>
+    <string name="data_parsing_error_description">Game data appears to be corrupted. Please contact Support.</string>
+
+    <!-- Game Center strings -->
+    <string name="game_center_high_score_label_rank">Rank</string>
+    <string name="game_center_high_score_label_score">Score</string>
+    <string name="game_center_high_score_label_name">Name</string>
+
+    <!-- Settings strings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_play_sounds_switch_label">Play Sounds</string>
+    <string name="settings_play_intro_animations_switch_label">Play Level Intro Animations</string>
+    <string name="settings_play_skip_beaten_intros_switch_label">Skip Intro for Levels Already Beaten</string>
+    <string name="settings_easy_mode_switch_label">Easy Mode</string>
+    <string name="settings_game_controller_state_connected">GAME CONTROLLER DETECTED</string>
+    <string name="settings_game_controller_state_not_connected">NO GAME CONTROLLER DETECTED</string>
+    <string name="settings_version_prefix">Version: </string>
+
+    <!-- Controls Schemes strings -->
+    <string name="control_schemes_title">Control Schemes</string>
+    <string name="control_schemes_current_scheme">Current Scheme</string>
+
+    <!-- Starting Level strings -->
+    <string name="starting_level_title">Starting Level</string>
+    <string name="starting_level_current_start">Current Start Level</string>
+    <string name="starting_level_info">Levels are only unlocked once you have completed the previous level</string>
+    <string name="starting_level_level_number_placeholder">Level Number</string>
+    <string name="starting_level_level_name_placeholder">Level Name</string>
+
+    <!-- Contact strings -->
+    <string name="contact_problem">Problem?</string>
+    <string name="contact_question">Question?</string>
+    <string name="contact_observation">Observation?</string>
+    <string name="contact_complaint">Complaint?</string>
+    <string name="contact_suggestion">Suggestion?</string>
+    <string name="contact_hear_from_you">We Want to Hear From You!</string>
+
+    <!-- Starting Level strings -->
+    <string name="tutorial_page_1_title">Welcome to TOP Guy\'s FutureTown!</string>
+    <string name="tutorial_page_1_description">Your mission, should you deci…\n\nOh, who are we kidding? This isn\’t a mission. You aren\’t a special agent and you aren\’t Robin Hood.\n\nThis is about redistributing some wealth, from T.O.P. (The One Percent) Guy to YOU. He has it. You want it. Go get it. He’s got so much of it that he leaves gold bars laying around the construction sites of his new City of the Future.\n\nAnd he\’s so stingy he\’s only using outdated, not-so-smart robotic sentries to guard it.\n\nSo he\’s just begging you to come… liberate some of that coin, right?!?\n\nYour only weapons are two stasis field generators you…procured, from… doesn\’t matter.\n\nOnce you acquire all of the gold bars from a site, an escape ladder will appear allowing you to escape to the next site.\n\nSo let\’s go! Everything you ever wanted is right here for the taking. Indulge!</string>
+    <string name="tutorial_page_2_title">Sentries</string>
+    <string name="tutorial_page_2_description_1">The construction sites are protected by a number of robot sentries. They generally behave in predictable ways but sometimes can surprise you.\n\nThe sentries are also capable of carrying gold bars.\n\nWhen not carrying a gold bar, a sentry has a roving red scanner in its chest:</string>
+    <string name="tutorial_page_2_description_2">When carrying a gold bar, the a sentry\'s chest scanner turns gold:</string>
+    <string name="tutorial_page_2_description_3">You can confiscate a gold bar that a sentry is carrying by trapping the sentry in a stasis field.</string>
+    <string name="tutorial_page_3_title">Platforms and Teleporters</string>
+    <string name="tutorial_page_3_description_1">Platforms move vertically or horizontally, at variable speeds, and stay docked for variable lengths of time.</string>
+    <string name="tutorial_page_3_description_2">Teleporters can either be bi-directional, capable of both sending and receiving passengers, or uni-directional, capable of either sending or receiving. Teleporters that can receive can receive from any transmitting teleporter.</string>
+    <string name="tutorial_page_3_bi_directional_description">Bi-directional Teleporter</string>
+    <string name="tutorial_page_3_sending_description">Sending Teleporter</string>
+    <string name="tutorial_page_3_receiving_description">Receiving Teleporter</string>
+    <string name="tutorial_page_4_title">Stasis Fields</string>
+    <string name="tutorial_page_4_description_1">Stasis fields are your only weapon. They allow you to block sentries from moving past them.\n\nYou have access to two stasis field generators. Each can generate only one field at a time.\n\nThe controls allow you to generate a stasis field to either side of your player, regardless of which direction the player is facing.\n\nWhen a sentry is carrying a gold bar, you can take it from him by firing a field as the sentry starts to move over it, trapping it inside.</string>
+    <string name="tutorial_page_4_description_2">Stasis fields also prevent the player from passing through them, except for when a sentry is trapped in them.</string>
+    <string name="tutorial_page_5_title">Controls</string>
+    <string name="tutorial_page_5_description_1">Multiple control schemes exist  to fit your personal preference.\n\nIn some schemes the game screen is larger.\n\nGame control has been designed to be as forgiving and flexible as possible.\n\nIf you haven\'t completely moved on or above a ladder, or if you have slightly run past it, and tap up or down, the controls will move you into position to climb the ladder.\n\nIf you are tapping on a horizontal button and a vertical button at the same time, the controls will continue in your current direction until the other direction is available to travel in.</string>
+    <string name="tutorial_page_5_description_2">For game controllers, the \'X\' button or the left shoulder button can be used to fire the left stasis field. The \'B\' button or right shoulder button fires the right stasis field.</string>
+
+    <!-- Game Screen strings -->
+    <string name="score_label">Score: </string>
+    <string name="lives_label">Lives: </string>
+    <string name="game_screen_level_number_placeholder">Level Number</string>
+    <string name="game_screen_level_name_placeholder">Level Name</string>
+    <string name="paused">Paused</string>
+
+    <!-- Control Scheme strings -->
+    <string name="control_scheme_landscape_control_right">Landscape view, control pad on right</string>
+    <string name="control_scheme_landscape_control_right_tablet">Landscape view, control pad on right</string>
+    <string name="control_scheme_landscape_control_left">Landscape view, control pad on left</string>
+    <string name="control_scheme_landscape_control_left_tablet">Landscape view, control pad on left</string>
+    <string name="control_scheme_landscape_control_dpad">Landscape view, D-pad style, directional controls on left, action buttons on right</string>
+    <string name="control_scheme_landscape_control_dpad_tablet">Landscape view, D-pad style, directional controls on left, action buttons on right</string>
+    <string name="control_scheme_landscape_control_updown_left_leftright_right">Landscape view, up/down controls on left, left/right controls on right</string>
+    <string name="control_scheme_landscape_control_updown_left_leftright_right_tablet">Landscape view, up/down controls on left, left/right controls on right</string>
+    <string name="control_scheme_landscape_control_updown_right_leftright_left">Landscape view, up/down controls on right, left/right controls on left</string>
+    <string name="control_scheme_landscape_control_updown_right_leftright_left_tablet">Landscape view, up/down controls on right, left/right controls on left</string>
+    <string name="control_scheme_portrait">Portrait view</string>
+    <string name="control_scheme_portrait_tablet">Portrait view; Smallest game screen</string>
+
+    <!-- Control Scheme strings -->
+    <string name="high_score_entry_view_title">High Score!</string>
+    <string name="high_score_entry_view_prompt">Enter Name:</string>
+    <string name="high_score_entry_view_cancel_button_title">Cancel</string>
+    <string name="high_score_entry_view_accept_button_title">Accept</string>
+
+    <!-- Extras strings -->
+    <string name="extras_screen_title">Extras!</string>
+    <string name="extras_price_placeholder_title">Price</string>
+    <string name="extras_title_placeholder_title">Title</string>
+    <string name="extras_subtitle_placeholder_title">Description</string>
+    <string name="extras_screen_transaction_cancelled_title">Transaction Cancelled</string>
+    <string name="extras_screen_transaction_failed_title">Transaction Failed</string>
+    <string name="extras_screen_transaction_succeeded_title">Transaction Complete</string>
+    <string name="extras_screen_transaction_cancelled_description">Transaction was cancelled by user</string>
+    <string name="extras_screen_transaction_failed_description">Transaction could not be processed. Please try again.</string>
+    <string name="extras_screen_transaction_succeeded_description">Transaction succeeded. You now have access to your game upgrades!</string>
+    <string name="extras_screen_product_retrieval_failed_title">Purchase Retrieval Failed</string>
+    <string name="extras_screen_product_retrieval_failed_description">Unable to retrieve list of purchased extras. Please check internet connection and Google Play account status and try again.</string>
+    <string name="button_title_ok">OK</string>
+
+</resources>

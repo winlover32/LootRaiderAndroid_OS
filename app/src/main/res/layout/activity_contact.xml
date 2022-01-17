@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="@dimen/contact_horizontal_padding"
+    android:paddingVertical="@dimen/contact_vertical_padding"
+    android:background="@color/sky_background_color"
+    tools:context=".UserInterface.ContactActivity">
+
+    <ImageButton
+        android:id="@+id/contact_email_image_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/contact_email_button_height"
+        android:layout_marginTop="@dimen/contact_button_vertical_margin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/clear_color"
+        android:src="@mipmap/email" />
+
+    <TextView
+        android:id="@+id/contact_hear_from_you_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/contact_item_vertical_margin"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/contact_email_image_button"
+        android:autoSizeTextType="uniform"
+        android:textSize="@dimen/contact_item_text_size"
+        android:textColor="@color/contact_items_text_color"
+        android:textAlignment="center"
+        android:text="@string/contact_hear_from_you" />
+
+    <TextView
+        android:id="@+id/contact_suggestion_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/contact_item_vertical_margin"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/contact_hear_from_you_text_view"
+        android:autoSizeTextType="uniform"
+        android:textSize="@dimen/contact_item_text_size"
+        android:textColor="@color/contact_items_text_color"
+        android:textAlignment="center"
+        android:text="@string/contact_suggestion" />
+
+    <TextView
+        android:id="@+id/contact_complaint_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/contact_item_vertical_margin"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/contact_suggestion_text_view"
+        android:autoSizeTextType="uniform"
+        android:textSize="@dimen/contact_item_text_size"
+        android:textColor="@color/contact_items_text_color"
+        android:textAlignment="center"
+        android:text="@string/contact_complaint" />
+
+    <TextView
+        android:id="@+id/contact_observation_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/contact_item_vertical_margin"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/contact_complaint_text_view"
+        android:autoSizeTextType="uniform"
+        android:textSize="@dimen/contact_item_text_size"
+        android:textColor="@color/contact_items_text_color"
+        android:textAlignment="center"
+        android:text="@string/contact_observation" />
+
+    <TextView
+        android:id="@+id/contact_question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/contact_item_vertical_margin"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/contact_observation_text_view"
+        android:autoSizeTextType="uniform"
+        android:textSize="@dimen/contact_item_text_size"
+        android:textColor="@color/contact_items_text_color"
+        android:textAlignment="center"
+        android:text="@string/contact_question" />
+
+    <TextView
+        android:id="@+id/contact_problem_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/contact_item_vertical_margin"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/contact_question_text_view"
+        android:autoSizeTextType="uniform"
+        android:textSize="@dimen/contact_item_text_size"
+        android:textColor="@color/contact_items_text_color"
+        android:textAlignment="center"
+        android:text="@string/contact_problem" />
+
+    <ImageButton
+        android:id="@+id/contact_exit_image_button"
+        android:layout_width="@dimen/default_exit_button_width"
+        android:layout_height="@dimen/default_exit_button_height"
+        android:scaleType="fitXY"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/clear_color"
+        android:src="@mipmap/game_control_button_exit" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

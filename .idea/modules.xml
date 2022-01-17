@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Loot_Raider.iml" filepath="$PROJECT_DIR$/.idea/modules/Loot_Raider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IoGInfrastructure/Loot_Raider.IoGInfrastructure.iml" filepath="$PROJECT_DIR$/.idea/modules/IoGInfrastructure/Loot_Raider.IoGInfrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Loot_Raider.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Loot_Raider.app.iml" />
+    </modules>
+  </component>
+</project>

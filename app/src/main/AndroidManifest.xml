@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.infusionsofgrandeur.lootraider">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UserInterface.TutorialActivity" />
+        <activity android:name=".UserInterface.ContactActivity" />
+        <activity android:name=".UserInterface.GameScreenActivity" />
+        <activity android:name=".UserInterface.GameCenterActivity" />
+        <activity android:name=".UserInterface.SettingsActivity" />
+        <activity android:name=".UserInterface.ControlSchemesActivity" />
+        <activity android:name=".UserInterface.StartingLevelActivity" />
+        <activity android:name=".UserInterface.ExtrasActivity" />
+        <activity
+            android:name=".UserInterface.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

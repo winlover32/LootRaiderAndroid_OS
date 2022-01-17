@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="@dimen/extras_horizontal_padding"
+    android:paddingVertical="@dimen/extras_vertical_padding"
+    android:background="@color/black_color"
+    tools:context=".UserInterface.ExtrasActivity">
+
+    <TextView
+        android:id="@+id/extras_title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/extras_title_bottom_margin"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autoSizeTextType="uniform"
+        android:textSize="@dimen/extras_title_field_text_size"
+        android:textColor="@color/extras_screen_title_text_color"
+        android:textStyle="bold"
+        android:text="@string/extras_screen_title" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/extras_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/extras_title_text_view"
+        app:layout_constraintBottom_toTopOf="@id/extras_exit_image_button"
+        android:background="@color/clear_color"
+        android:choiceMode="none" />
+
+    <ImageButton
+        android:id="@+id/extras_exit_image_button"
+        android:layout_width="@dimen/default_exit_button_width"
+        android:layout_height="@dimen/default_exit_button_height"
+        android:scaleType="fitXY"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/clear_color"
+        android:src="@mipmap/game_control_button_exit" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="@dimen/control_schemes_vertical_padding"
+    android:background="@color/black_color"
+    tools:context=".UserInterface.StartingLevelActivity">
+
+    <TextView
+        android:id="@+id/starting_level_title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/starting_level_title_bottom_margin"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autoSizeTextType="uniform"
+        android:textSize="@dimen/starting_level_title_field_text_size"
+        android:textColor="@color/starting_level_title_text_color"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="@string/starting_level_title" />
+
+    <TextView
+        android:id="@+id/starting_level_info_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingHorizontal="@dimen/starting_level_horizontal_padding"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/starting_level_title_text_view"
+        android:autoSizeTextType="uniform"
+        android:textSize="@dimen/starting_level_description_text_size"
+        android:textColor="@color/control_schemes_text_color"
+        android:textAlignment="center"
+        android:text="@string/starting_level_info" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/starting_level_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/starting_level_info_text_view"
+        app:layout_constraintBottom_toTopOf="@id/starting_level_cancel_image_button"
+        android:background="@color/clear_color"
+        android:choiceMode="singleChoice" />
+
+    <ImageButton
+        android:id="@+id/starting_level_cancel_image_button"
+        android:layout_width="@dimen/default_cancel_button_width"
+        android:layout_height="@dimen/default_cancel_button_height"
+        android:layout_marginRight="@dimen/starting_level_cancel_button_horizontal_padding"
+        android:scaleType="fitXY"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/clear_color"
+        android:src="@mipmap/game_control_button_cancel" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

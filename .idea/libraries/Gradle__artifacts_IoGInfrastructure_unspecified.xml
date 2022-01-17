@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:IoGInfrastructure:unspecified">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/IoGInfrastructure/build/.transforms/15f1ab5d5e4d05cf47e98e657bc04927/transformed/jetified-IoGInfrastructure/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/IoGInfrastructure/build/.transforms/15f1ab5d5e4d05cf47e98e657bc04927/transformed/jetified-IoGInfrastructure/res" />
+      <root url="jar://$PROJECT_DIR$/IoGInfrastructure/build/.transforms/15f1ab5d5e4d05cf47e98e657bc04927/transformed/jetified-IoGInfrastructure/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

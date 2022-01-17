@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application level items -->
+    <dimen name="default_top_margin">16dp</dimen>
+    <dimen name="default_bottom_margin">16dp</dimen>
+    <dimen name="default_left_margin">16dp</dimen>
+    <dimen name="default_right_margin">16dp</dimen>
+    <dimen name="default_cancel_button_width">80dp</dimen>
+    <dimen name="default_cancel_button_height">40dp</dimen>
+    <dimen name="default_exit_button_width">80dp</dimen>
+    <dimen name="default_exit_button_height">40dp</dimen>
+    <dimen name="default_next_button_width">80dp</dimen>
+    <dimen name="default_next_button_height">40dp</dimen>
+
+    <!-- Game Center items -->
+    <dimen name="game_center_vertical_margin">20dp</dimen>
+    <dimen name="game_center_horizontal_margin">20dp</dimen>
+    <dimen name="logo_width">300dp</dimen>
+    <dimen name="logo_height">130dp</dimen>
+    <dimen name="game_center_button_height">40dp</dimen>
+    <dimen name="game_center_score_label_rank_margin_right">20dp</dimen>
+    <dimen name="game_center_score_label_score_margin_right">20dp</dimen>
+    <dimen name="game_center_score_label_field_text_size">20sp</dimen>
+    <dimen name="game_center_score_field_text_size">18sp</dimen>
+    <dimen name="button_spacing_top_margin">8dp</dimen>
+    <dimen name="button_spacing_bottom_margin">8dp</dimen>
+    <dimen name="high_score_entry_height">21dp</dimen>
+    <dimen name="high_score_rank_width">78dp</dimen>
+    <dimen name="high_score_score_width">80dp</dimen>
+    <dimen name="high_score_name_width">200dp</dimen>
+    <dimen name="high_score_entry_text_size">20sp</dimen>
+
+    <!-- Settings items -->
+    <dimen name="settings_horizontal_padding">6dp</dimen>
+    <dimen name="settings_vertical_padding">12dp</dimen>
+    <dimen name="control_layout_row_height">294dp</dimen>
+    <dimen name="start_level_row_height">294dp</dimen>
+    <dimen name="get_extras_row_height">56dp</dimen>
+    <dimen name="settings_title_field_text_size">24sp</dimen>
+    <dimen name="settings_item_field_text_size">20sp</dimen>
+    <dimen name="settings_title_bottom_margin">64dp</dimen>
+    <dimen name="settings_item_bottom_margin">32dp</dimen>
+    <dimen name="settings_button_height">40dp</dimen>
+    <dimen name="settings_button_vertical_margin">20dp</dimen>
+    <dimen name="settings_button_horizontal_margin">20dp</dimen>
+    <dimen name="settings_version_field_text_size">16sp</dimen>
+    <dimen name="settings_bottom_margin">20dp</dimen>
+
+    <!-- Control Schemes items -->
+    <dimen name="control_schemes_horizontal_padding">8dp</dimen>
+    <dimen name="control_schemes_vertical_padding">12dp</dimen>
+    <dimen name="control_schemes_image_width">343dp</dimen>
+    <dimen name="control_schemes_image_height">193dp</dimen>
+    <dimen name="control_schemes_current_scheme_text_size">16sp</dimen>
+    <dimen name="control_schemes_scheme_description_text_size">14sp</dimen>
+    <dimen name="control_schemes_item_vertical_padding">12dp</dimen>
+    <dimen name="control_schemes_current_scheme_height">32dp</dimen>
+    <dimen name="control_schemes_description_height">56dp</dimen>
+    <dimen name="control_schemes_title_bottom_margin">32dp</dimen>
+    <dimen name="control_schemes_title_field_text_size">24sp</dimen>
+    <dimen name="control_schemes_cancel_button_horizontal_padding">12dp</dimen>
+
+    <!-- Starting Level items -->
+    <dimen name="starting_level_horizontal_padding">8dp</dimen>
+    <dimen name="starting_level_vertical_padding">12dp</dimen>
+    <dimen name="starting_level_title_bottom_margin">32dp</dimen>
+    <dimen name="starting_level_title_field_text_size">20sp</dimen>
+    <dimen name="starting_level_description_text_size">12sp</dimen>
+    <dimen name="starting_level_cancel_button_horizontal_padding">12dp</dimen>
+    <dimen name="starting_level_image_width">300dp</dimen>
+    <dimen name="starting_level_image_height">200dp</dimen>
+    <dimen name="starting_level_current_start_height">32dp</dimen>
+    <dimen name="starting_level_current_start_text_size">14sp</dimen>
+    <dimen name="starting_level_level_details_height">24dp</dimen>
+    <dimen name="starting_level_level_detail_text_size">14sp</dimen>
+
+    <!-- Contact items -->
+    <dimen name="contact_horizontal_padding">8dp</dimen>
+    <dimen name="contact_vertical_padding">12dp</dimen>
+    <dimen name="contact_item_text_size">20sp</dimen>
+    <dimen name="contact_email_button_height">40dp</dimen>
+    <dimen name="contact_button_vertical_margin">30dp</dimen>
+    <dimen name="contact_item_vertical_margin">20dp</dimen>
+
+    <!-- Tutorial items -->
+    <dimen name="tutorial_title_bottom_margin">32dp</dimen>
+    <dimen name="tutorial_description_bottom_margin">32dp</dimen>
+    <dimen name="tutorial_text_field_bottom_margin">16dp</dimen>
+    <dimen name="tutorial_title_field_text_size">24sp</dimen>
+    <dimen name="tutorial_description_text_size">14sp</dimen>
+    <dimen name="tutorial_guard_image_width">60dp</dimen>
+    <dimen name="tutorial_guard_image_height">60dp</dimen>
+    <dimen name="tutorial_teleporter_image_width">60dp</dimen>
+    <dimen name="tutorial_teleporter_image_height">60dp</dimen>
+    <dimen name="tutorial_teleporter_view_bottom_margin">12dp</dimen>
+    <dimen name="tutorial_stasis_field_image_width">60dp</dimen>
+    <dimen name="tutorial_stasis_field_image_height">60dp</dimen>
+    <dimen name="tutorial_control_pad_image_width">100dp</dimen>
+    <dimen name="tutorial_control_pad_image_height">100dp</dimen>
+
+    <!-- Game Screen items -->
+    <dimen name="game_screen_horizontal_padding">8dp</dimen>
+    <dimen name="game_screen_vertical_padding">12dp</dimen>
+    <dimen name="game_screen_button_margin">12dp</dimen>
+    <dimen name="game_screen_control_vertical_margin">24dp</dimen>
+    <dimen name="game_screen_info_container_vertical_padding">20dp</dimen>
+    <dimen name="game_screen_gameboard_landscape_vertical_padding">48dp</dimen>
+    <dimen name="game_screen_gameboard_portrait_vertical_padding">24dp</dimen>
+    <dimen name="game_screen_gameboard_alternate_horizontal_padding">24dp</dimen>
+    <dimen name="game_screen_gameboard_alternate_vertical_padding">36dp</dimen>
+    <dimen name="game_screen_gameboard_alternate_button_spacing_padding">12dp</dimen>
+    <dimen name="game_screen_stasis_field_button_portrait_horizontal_margin">44dp</dimen>
+    <dimen name="game_screen_stasis_field_button_portrait_vertical_margin">16dp</dimen>
+    <dimen name="game_screen_stasis_field_button_alternate_horizontal_margin">24dp</dimen>
+    <dimen name="game_screen_stasis_field_button_alternate_vertical_margin">12dp</dimen>
+    <dimen name="default_pause_button_width">52dp</dimen>
+    <dimen name="default_pause_button_height">30dp</dimen>
+    <dimen name="default_quit_button_width">52dp</dimen>
+    <dimen name="default_quit_button_height">30dp</dimen>
+    <dimen name="default_stasis_field_button_width">120dp</dimen>
+    <dimen name="default_stasis_field_button_height">80dp</dimen>
+    <dimen name="small_stasis_field_button_width">60dp</dimen>
+    <dimen name="small_stasis_field_button_height">40dp</dimen>
+    <dimen name="game_screen_info_field_text_size">16sp</dimen>
+    <dimen name="game_screen_title_field_text_size">24sp</dimen>
+    <dimen name="game_screen_portrait_gameboard_width">300dp</dimen>
+    <dimen name="game_screen_portrait_gameboard_height">200dp</dimen>
+    <dimen name="game_screen_landscape_gameboard_width">300dp</dimen>
+    <dimen name="game_screen_landscape_gameboard_height">200dp</dimen>
+    <dimen name="game_screen_alternate_gameboard_width">363dp</dimen>
+    <dimen name="game_screen_alternate_gameboard_height">242dp</dimen>
+    <dimen name="game_screen_portrait_controlpad_width">293dp</dimen>
+    <dimen name="game_screen_portrait_controlpad_height">293dp</dimen>
+    <dimen name="game_screen_vertical_controlpad_width">80dp</dimen>
+    <dimen name="game_screen_vertical_controlpad_height">160dp</dimen>
+    <dimen name="game_screen_horizontal_controlpad_width">160dp</dimen>
+    <dimen name="game_screen_horizontal_controlpad_height">80dp</dimen>
+    <dimen name="game_screen_square_controlpad_width">209dp</dimen>
+    <dimen name="game_screen_square_controlpad_height">209dp</dimen>
+    <dimen name="small_game_screen_square_controlpad_width">104dp</dimen>
+    <dimen name="small_game_screen_square_controlpad_height">104dp</dimen>
+    <dimen name="game_screen_level_details_height">20dp</dimen>
+    <dimen name="game_screen_level_detail_text_size">16sp</dimen>
+    <dimen name="game_screen_level_name_vertical_margin">18sp</dimen>
+
+    <!-- High Score items -->
+    <dimen name="high_score_overlay_width">240dp</dimen>
+    <dimen name="high_score_overlay_height">180dp</dimen>
+    <dimen name="high_score_entry_display_horizontal_padding">12dp</dimen>
+    <dimen name="high_score_entry_display_vertical_padding">8dp</dimen>
+    <dimen name="high_score_entry_text_field_vertical_padding">4dp</dimen>
+    <dimen name="high_score_entry_view_title_text_size">20sp</dimen>
+    <dimen name="high_score_overlay_button_width">60dp</dimen>
+    <dimen name="high_score_overlay_button_height">40dp</dimen>
+
+    <!-- Extras items -->
+    <dimen name="extras_item_height">64dp</dimen>
+    <dimen name="extras_horizontal_padding">12dp</dimen>
+    <dimen name="extras_vertical_padding">8dp</dimen>
+    <dimen name="extras_item_horizontal_padding">12dp</dimen>
+    <dimen name="extras_item_vertical_padding">8dp</dimen>
+    <dimen name="extras_item_button_width">68dp</dimen>
+    <dimen name="extras_item_button_height">34dp</dimen>
+    <dimen name="extras_price_width">72dp</dimen>
+    <dimen name="extras_price_height">22dp</dimen>
+    <dimen name="extras_title_height">26dp</dimen>
+    <dimen name="extras_subtitle_height">18dp</dimen>
+    <dimen name="extras_price_text_size">16sp</dimen>
+    <dimen name="extras_title_text_size">17sp</dimen>
+    <dimen name="extras_subtitle_text_size">10sp</dimen>
+    <dimen name="extras_title_bottom_margin">64dp</dimen>
+    <dimen name="extras_title_field_text_size">24sp</dimen>
+
+</resources>

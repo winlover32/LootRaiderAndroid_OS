@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/high_score_entry_height">
+
+    <LinearLayout
+        android:id="@+id/high_score_entry_background_primary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/high_score_entry_height"
+        android:background="@color/clear_color"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:id="@+id/high_score_entry_background_secondary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/high_score_entry_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/clear_color"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/high_score_field_rank"
+        android:layout_width="@dimen/high_score_rank_width"
+        android:layout_height="@dimen/high_score_entry_height"
+        android:layout_alignParentLeft="true"
+        android:autoSizeTextType="uniform"
+        android:textSize="@dimen/game_center_score_field_text_size"
+        android:background="@color/clear_color"
+        android:textColor="@color/high_score_entry_text_color" />
+
+    <TextView
+        android:id="@+id/high_score_field_score"
+        android:layout_width="@dimen/high_score_score_width"
+        android:layout_height="@dimen/high_score_entry_height"
+        android:layout_toRightOf="@id/high_score_field_rank"
+        android:autoSizeTextType="uniform"
+        android:textSize="@dimen/game_center_score_field_text_size"
+        android:background="@color/clear_color"
+        android:textColor="@color/high_score_entry_text_color" />
+
+    <TextView
+        android:id="@+id/high_score_field_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/high_score_entry_height"
+        android:layout_toRightOf="@id/high_score_field_score"
+        android:autoSizeTextType="uniform"
+        android:textSize="@dimen/game_center_score_field_text_size"
+        android:background="@color/clear_color"
+        android:textColor="@color/high_score_entry_text_color" />
+
+</RelativeLayout>

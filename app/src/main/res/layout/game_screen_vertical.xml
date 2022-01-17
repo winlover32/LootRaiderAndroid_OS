@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="@dimen/game_screen_horizontal_padding"
+    android:paddingVertical="@dimen/game_screen_vertical_padding"
+    android:background="@color/black_color"
+    tools:context=".UserInterface.GameScreenActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/game_screen_info_container_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/game_screen_info_container_vertical_padding"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/game_screen_pause_image_button"
+            android:layout_width="@dimen/default_pause_button_width"
+            android:layout_height="@dimen/default_pause_button_height"
+            android:scaleType="fitXY"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@color/clear_color"
+            android:src="@mipmap/game_control_button_pause" />
+
+        <TextView
+            android:id="@+id/game_screen_score_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toRightOf="@id/game_screen_pause_image_button"
+            app:layout_constraintTop_toTopOf="@id/game_screen_pause_image_button"
+            app:layout_constraintBottom_toBottomOf="@id/game_screen_pause_image_button"
+            android:layout_marginLeft="@dimen/game_screen_button_margin"
+            android:autoSizeTextType="uniform"
+            android:textSize="@dimen/game_screen_info_field_text_size"
+            android:textColor="@color/game_screen_text_color"
+            android:text="@string/score_label" />
+
+        <ImageButton
+            android:id="@+id/game_screen_quit_image_button"
+            android:layout_width="@dimen/default_pause_button_width"
+            android:layout_height="@dimen/default_pause_button_height"
+            android:scaleType="fitXY"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@color/clear_color"
+            android:src="@mipmap/game_control_button_quit" />
+
+        <TextView
+            android:id="@+id/game_screen_lives_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toLeftOf="@id/game_screen_quit_image_button"
+            app:layout_constraintTop_toTopOf="@id/game_screen_quit_image_button"
+            app:layout_constraintBottom_toBottomOf="@id/game_screen_quit_image_button"
+            android:layout_marginRight="@dimen/game_screen_button_margin"
+            android:autoSizeTextType="uniform"
+            android:textSize="@dimen/game_screen_info_field_text_size"
+            android:textColor="@color/game_screen_text_color"
+            android:text="@string/lives_label" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <SurfaceView
+        android:id="@+id/game_screen_gameboard_view"
+        android:layout_width="@dimen/game_screen_portrait_gameboard_width"
+        android:layout_height="@dimen/game_screen_portrait_gameboard_height"
+        app:layout_constraintTop_toBottomOf="@id/game_screen_info_container_view"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="@dimen/game_screen_gameboard_portrait_vertical_padding"
+        android:background="@color/clear_color" />
+
+    <ImageView
+        android:id="@+id/game_screen_pause_view"
+        android:layout_width="@dimen/game_screen_portrait_gameboard_width"
+        android:layout_height="@dimen/game_screen_portrait_gameboard_height"
+        app:layout_constraintTop_toBottomOf="@id/game_screen_info_container_view"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="@dimen/game_screen_gameboard_portrait_vertical_padding"
+        android:scaleType="fitXY"
+        android:background="@color/clear_color"
+        android:alpha="0.7"
+        android:src="@mipmap/background" />
+
+    <TextView
+        android:id="@+id/game_screen_level_number_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/game_screen_level_details_height"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.45"
+        app:layout_constraintTop_toTopOf="@id/game_screen_gameboard_view"
+        app:layout_constraintBottom_toBottomOf="@id/game_screen_gameboard_view"
+        android:autoSizeTextType="uniform"
+        android:textSize="@dimen/game_screen_level_detail_text_size"
+        android:textColor="@color/game_screen_level_details_text_color"
+        android:text="@string/game_screen_level_number_placeholder" />
+
+    <TextView
+        android:id="@+id/game_screen_level_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/game_screen_level_details_height"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.60"
+        app:layout_constraintTop_toTopOf="@id/game_screen_gameboard_view"
+        app:layout_constraintBottom_toBottomOf="@id/game_screen_gameboard_view"
+        android:autoSizeTextType="uniform"
+        android:textSize="@dimen/game_screen_level_detail_text_size"
+        android:textColor="@color/game_screen_level_details_text_color"
+        android:text="@string/game_screen_level_name_placeholder" />
+
+    <TextView
+        android:id="@+id/game_screen_paused_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/game_screen_level_details_height"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/game_screen_gameboard_view"
+        app:layout_constraintBottom_toBottomOf="@id/game_screen_gameboard_view"
+        android:autoSizeTextType="uniform"
+        android:textSize="@dimen/game_screen_level_detail_text_size"
+        android:textColor="@color/game_screen_level_details_text_color"
+        android:text="@string/paused" />
+
+    <ImageView
+        android:id="@+id/game_screen_controlpad_view"
+        android:layout_width="@dimen/game_screen_portrait_controlpad_width"
+        android:layout_height="@dimen/game_screen_portrait_controlpad_height"
+        app:layout_constraintBottom_toTopOf="@id/game_screen_stasis_field_left_image_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="@dimen/game_screen_stasis_field_button_portrait_vertical_margin"
+        android:scaleType="fitXY"
+        android:background="@color/clear_color"
+        android:src="@mipmap/buttons_none_pressed" />
+
+    <com.infusionsofgrandeur.lootraider.UserInterface.ControlView
+        android:id="@+id/game_screen_controlpad_overlay"
+        android:layout_width="@dimen/game_screen_portrait_controlpad_width"
+        android:layout_height="@dimen/game_screen_portrait_controlpad_height"
+        app:layout_constraintBottom_toTopOf="@id/game_screen_stasis_field_left_image_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="@dimen/game_screen_stasis_field_button_portrait_vertical_margin"
+        />
+
+    <ImageButton
+        android:id="@+id/game_screen_stasis_field_left_image_button"
+        android:layout_width="@dimen/default_stasis_field_button_width"
+        android:layout_height="@dimen/default_stasis_field_button_height"
+        android:layout_marginLeft="@dimen/game_screen_stasis_field_button_portrait_horizontal_margin"
+        android:layout_marginTop="@dimen/game_screen_stasis_field_button_portrait_vertical_margin"
+        android:scaleType="fitXY"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/clear_color"
+        android:src="@mipmap/stasis_field_left" />
+
+    <ImageButton
+        android:id="@+id/game_screen_stasis_field_right_image_button"
+        android:layout_width="@dimen/default_stasis_field_button_width"
+        android:layout_height="@dimen/default_stasis_field_button_height"
+        android:layout_marginRight="@dimen/game_screen_stasis_field_button_portrait_horizontal_margin"
+        android:layout_marginTop="@dimen/game_screen_stasis_field_button_portrait_vertical_margin"
+        android:scaleType="fitXY"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/clear_color"
+        android:src="@mipmap/stasis_field_right" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

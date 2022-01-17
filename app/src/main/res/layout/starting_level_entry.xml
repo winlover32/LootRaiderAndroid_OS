@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/starting_level_horizontal_padding"
+    android:paddingVertical="@dimen/starting_level_vertical_padding"
+    android:background="@color/clear_color">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/starting_levels_level_display_container_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/starting_levels_entry_image_view"
+            android:layout_width="@dimen/starting_level_image_width"
+            android:layout_height="@dimen/starting_level_image_height"
+            android:layout_marginBottom="@dimen/starting_level_vertical_padding"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/starting_level_entry_level_number_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/starting_level_level_details_height"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintVertical_bias="0.45"
+            app:layout_constraintTop_toTopOf="@id/starting_levels_entry_image_view"
+            app:layout_constraintBottom_toBottomOf="@id/starting_levels_entry_image_view"
+            android:textSize="@dimen/starting_level_level_detail_text_size"
+            android:textColor="@color/starting_level_level_details_text_color"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="@string/starting_level_level_number_placeholder" />
+
+        <TextView
+            android:id="@+id/starting_level_entry_level_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/starting_level_level_details_height"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintVertical_bias="0.60"
+            app:layout_constraintTop_toTopOf="@id/starting_levels_entry_image_view"
+            app:layout_constraintBottom_toBottomOf="@id/starting_levels_entry_image_view"
+            android:textSize="@dimen/starting_level_level_detail_text_size"
+            android:textColor="@color/starting_level_level_details_text_color"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="@string/starting_level_level_name_placeholder" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/starting_level_entry_current_start_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/starting_level_current_start_height"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/starting_levels_level_display_container_view"
+        android:textSize="@dimen/starting_level_current_start_text_size"
+        android:textColor="@color/starting_level_current_level_text_color"
+        android:textAlignment="center"
+        android:text="@string/starting_level_current_start" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

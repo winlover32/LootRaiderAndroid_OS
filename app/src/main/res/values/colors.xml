@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application level colors -->
+    <color name="clear_color">#00ffffff</color>
+    <color name="black_color">#ff000000</color>
+    <color name="sky_background_color">#ff71fef8</color>
+    <color name="underground_background_color">#ff000000</color>
+    <color name="dark_text_color">#ff000000</color>
+    <color name="light_text_color">#ffffffff</color>
+
+    <!-- Game Center colors -->
+    <color name="high_score_entry_text_color">#ff000000</color>
+    <color name="high_score_label_text_color">#ff000000</color>
+    <color name="high_score_entry_background_primary_color">#ff0000ff</color>
+    <color name="high_score_entry_background_secondary_color">#ffffffff</color>
+
+    <!-- Settings colors -->
+    <color name="settings_title_text_color">#ff000000</color>
+    <color name="settings_item_text_color">#ff000000</color>
+    <color name="settings_version_text_color">#ff000000</color>
+    <color name="settings_game_controller_detected_text_color">#ff0000ff</color>
+    <color name="settings_no_game_controller_detected_text_color">#ffff0000</color>
+
+    <!-- Control Schemes colors -->
+    <color name="control_schemes_background_color">#ff000000</color>
+    <color name="control_schemes_text_color">#ffffffff</color>
+    <color name="control_schemes_current_scheme_text_color">#ff00ff00</color>
+    <color name="control_schemes_title_text_color">#ffffffff</color>
+
+    <!-- Starting Level colors -->
+    <color name="starting_level_title_text_color">#ffffffff</color>
+    <color name="starting_level_current_level_text_color">#ff00ff00</color>
+    <color name="starting_level_level_details_text_color">#ffffffff</color>
+
+    <!-- Contact colors -->
+    <color name="contact_items_text_color">#ff000000</color>
+
+    <!-- Tutorial colors -->
+    <color name="tutorial_background_color">#ff000000</color>
+    <color name="tutorial_text_color">#ffffffff</color>
+
+    <!-- Game Screen colors -->
+    <color name="game_screen_text_color">#ffffffff</color>
+    <color name="game_screen_level_details_text_color">#ffffffff</color>
+
+    <!-- High score entry colors -->
+    <color name="high_Score_entry_view_title_text_color">#ffffffff</color>
+    <color name="high_Score_entry_view_button_text_color">#ffff0000</color>
+    <color name="high_Score_entry_view_text_entry_background_color">#ffffffff</color>
+
+    <!-- Extras colors -->
+    <color name="extras_price_text_color">#ffffffff</color>
+    <color name="extras_title_text_color">#ffffffff</color>
+    <color name="extras_subtitle_text_color">#ff00ff00</color>
+    <color name="extras_screen_title_text_color">#ffffffff</color>
+
+</resources>

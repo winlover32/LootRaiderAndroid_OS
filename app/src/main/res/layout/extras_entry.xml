@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/extras_item_height"
+    android:paddingHorizontal="@dimen/extras_horizontal_padding"
+    android:paddingVertical="@dimen/extras_vertical_padding"
+    android:background="@color/black_color">
+
+    <ImageButton
+        android:id="@+id/extras_buy_button"
+        android:layout_width="@dimen/extras_item_button_width"
+        android:layout_height="@dimen/extras_item_button_height"
+        android:layout_marginLeft="@dimen/extras_item_horizontal_padding"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@color/clear_color"
+        android:scaleType="fitXY"
+        android:src="@mipmap/game_control_button_buy" />
+
+    <TextView
+        android:id="@+id/extras_price_text_view"
+        android:layout_width="@dimen/extras_price_width"
+        android:layout_height="@dimen/extras_price_height"
+        app:layout_constraintRight_toLeftOf="@id/extras_buy_button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="@dimen/extras_price_text_size"
+        android:textColor="@color/extras_price_text_color"
+        android:textStyle="bold"
+        android:text="@string/extras_price_placeholder_title" />
+
+    <TextView
+        android:id="@+id/extras_title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/extras_title_height"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="@dimen/extras_title_text_size"
+        android:textColor="@color/extras_title_text_color"
+        android:textStyle="bold"
+        android:text="@string/extras_title_placeholder_title" />
+
+    <TextView
+        android:id="@+id/extras_subtitle_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/extras_subtitle_height"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="@dimen/extras_subtitle_text_size"
+        android:textColor="@color/extras_subtitle_text_color"
+        android:text="@string/extras_subtitle_placeholder_title" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
